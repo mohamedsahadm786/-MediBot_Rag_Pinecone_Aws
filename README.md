@@ -42,7 +42,7 @@ Key entry points:
 
 ## 🧱 Architecture (RAG)
 
-```mermaid
+```
 flowchart LR
     A[PDF Corpus (700+ pages)] --> B[Loader & Cleaner<br/>src.helper.load_pdf_file]
     B --> C[Chunker<br/>text_split()]
